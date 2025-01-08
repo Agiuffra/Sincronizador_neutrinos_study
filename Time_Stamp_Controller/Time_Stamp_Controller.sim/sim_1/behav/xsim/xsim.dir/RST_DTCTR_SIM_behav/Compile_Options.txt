@@ -1,0 +1,1 @@
+-wto "2e67f72800e44c65ad742039fa7d2b1c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "RST_DTCTR_SIM_behav" "xil_defaultlib.RST_DTCTR_SIM" -log "elaborate.log" 

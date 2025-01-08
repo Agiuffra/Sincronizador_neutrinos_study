@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/FT_CNTR.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR_SIM'

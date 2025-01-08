@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1736361007">
-  <File Type="PA-TCL" Name="FT_CNTR.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="FT_CNTR_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="FT_CNTR_reports.tcl"/>
-  <File Type="RDS-RDS" Name="FT_CNTR.vds"/>
-  <File Type="RDS-UTIL" Name="FT_CNTR_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="FT_CNTR_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="FT_CNTR.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="FT_CNTR_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="FT_CNTR_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1736370721">
+  <File Type="PA-TCL" Name="RST_DTCTR.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="RST_DTCTR_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="RST_DTCTR_reports.tcl"/>
+  <File Type="RDS-RDS" Name="RST_DTCTR.vds"/>
+  <File Type="RDS-UTIL" Name="RST_DTCTR_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="RST_DTCTR_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="RST_DTCTR.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="RST_DTCTR_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="RST_DTCTR_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/FT_CNTR.vhd">
+    <File Path="$PSRCDIR/sources_1/new/RST_DTCTR.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/RST_DTCTR.vhd">
+    <File Path="$PSRCDIR/sources_1/new/FT_CNTR.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -33,8 +33,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="FT_CNTR"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="RST_DTCTR"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -50,9 +49,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

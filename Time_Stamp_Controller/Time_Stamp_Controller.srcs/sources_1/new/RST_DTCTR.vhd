@@ -1,43 +1,25 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 08.01.2025 10:25:11
--- Design Name: 
--- Module Name: RST_DTCTR - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+-- =======================================================================
+-- Reset Detector - Proyecto Neutrinos ( ZynQ7000 AC7020C )
+-- =======================================================================
+-- Bloque que detecta la interrupcion de los receptores de RF. Este tiene 
+-- un AND, pues espera a que las tres senales esten activas para que tenga
+-- una salida en alta.
 
-
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity RST_DTCTR is
---  Port ( );
+    Port ( RF1 : in std_logic;  -- Senal de entrada 1
+           RF2 : in std_logic;  -- Senal de entrada 2
+           RF3 : in std_logic;  -- Senal de entrada 3
+           ISR : out std_logic); -- Salida de interrupcion
 end RST_DTCTR;
 
 architecture Behavioral of RST_DTCTR is
 
 begin
 
+    ISR <= RF1 and RF2 and RF3;
 
 end Behavioral;
