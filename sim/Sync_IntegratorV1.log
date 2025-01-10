@@ -1,0 +1,35 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\agiuffra\Documents\Neutrino_VHDL\Sincronizador_neutrinos_study\sim\Sync_IntegratorV1.asc
+Start Time: Fri Jan 10 11:48:54 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node u3:105.  This node is used by r:u3:f.
+WARNING: Less than two connections to node u4:105.  This node is used by r:u4:f.
+WARNING: Less than two connections to node nc_03.  This node is used by r:u1:16.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.86414
+vernier = 0.666667
+vernier = 0.333333
+vernier = 0.166667
+Gmin = 1.02963
+vernier = 0.0833333
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0104167
+Gmin = 1.01634
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+vernier = 0.000651042
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 1.669 seconds.
+
