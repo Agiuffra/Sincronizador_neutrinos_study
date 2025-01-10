@@ -7,6 +7,10 @@
 -- y una salida de 4 bytes con la cuenta. CLK recibe la oscilacion del cristal
 -- de 50 MHz, RST solo resetea la cuenta, ISR envia la cuenta por el output
 -- CNT y resetea la cuenta.
+-- -----------------------------------------------------------------------
+-- Autor:   Alessandro Giuffra Lovera
+--          Universidad de Ingenieria y Tecnologia - UTEC
+--          01/2025
 
 library ieee;
 use ieee.std_logic_1164.all;

@@ -4,6 +4,10 @@
 -- Bloque que detecta la interrupcion de los receptores de RF. Este tiene 
 -- un AND, pues espera a que las tres senales esten activas para que tenga
 -- una salida en alta.
+-- -----------------------------------------------------------------------
+-- Autor:   Alessandro Giuffra Lovera
+--          Universidad de Ingenieria y Tecnologia - UTEC
+--          01/2025
 
 library ieee;
 use ieee.std_logic_1164.all;

@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\agiuffra\Documents\Neutrino_VHDL\Sincronizador_neutrinos_study\sim\Sync_IntegratorV1.asc
-Start Time: Fri Jan 10 11:48:54 2025
+Start Time: Fri Jan 10 12:01:54 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -31,5 +31,5 @@ vernier = 0.000488281
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 1.669 seconds.
+Total elapsed time: 3.392 seconds.
 

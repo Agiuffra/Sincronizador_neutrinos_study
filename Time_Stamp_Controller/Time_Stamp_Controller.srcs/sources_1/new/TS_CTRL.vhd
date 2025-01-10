@@ -1,23 +1,11 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- =======================================================================
+-- Time Stamp Controller - Proyecto Neutrinos ( ZynQ7000 AC7020C )
+-- =======================================================================
 -- 
--- Create Date: 08.01.2025 10:25:11
--- Design Name: 
--- Module Name: TS_CTRL - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
+-- -----------------------------------------------------------------------
+-- Autor:   Alessandro Giuffra Lovera
+--          Universidad de Ingenieria y Tecnologia - UTEC
+--          01/2025
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
