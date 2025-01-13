@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1736370721">
-  <File Type="PA-TCL" Name="RST_DTCTR.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="RST_DTCTR_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="RST_DTCTR_reports.tcl"/>
-  <File Type="RDS-RDS" Name="RST_DTCTR.vds"/>
-  <File Type="RDS-UTIL" Name="RST_DTCTR_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="RST_DTCTR_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="RST_DTCTR.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="RST_DTCTR_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="RST_DTCTR_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1736760981">
+  <File Type="PA-TCL" Name="TS_CTRL.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TS_CTRL_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TS_CTRL_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TS_CTRL.vds"/>
+  <File Type="RDS-UTIL" Name="TS_CTRL_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TS_CTRL_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TS_CTRL.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TS_CTRL_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TS_CTRL_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FT_CNTR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/RST_DTCTR.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/FT_CNTR.vhd">
+    <File Path="$PSRCDIR/sources_1/new/UART.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/TS_CTRL.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="RST_DTCTR"/>
+      <Option Name="TopModule" Val="TS_CTRL"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/const.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/const.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

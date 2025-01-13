@@ -1,104 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1736370721">
-  <File Type="BITSTR-BMM" Name="RST_DTCTR_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="RST_DTCTR_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="RST_DTCTR_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="RST_DTCTR_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="RST_DTCTR.tcl"/>
-  <File Type="OPT-TIMING" Name="RST_DTCTR_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="RST_DTCTR_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="RST_DTCTR_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="RST_DTCTR_reports.tcl"/>
-  <File Type="OPT-DRC" Name="RST_DTCTR_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="RST_DTCTR.hwdef"/>
-  <File Type="PWROPT-DCP" Name="RST_DTCTR_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="RST_DTCTR_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="RST_DTCTR_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="RST_DTCTR_placed.dcp"/>
-  <File Type="PLACE-IO" Name="RST_DTCTR_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="RST_DTCTR_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="RST_DTCTR_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="RST_DTCTR_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="RST_DTCTR_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="RST_DTCTR_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="RST_DTCTR_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="RST_DTCTR.bgn"/>
-  <File Type="PLACE-TIMING" Name="RST_DTCTR_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="RST_DTCTR_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="RST_DTCTR.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="RST_DTCTR_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="RST_DTCTR_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="RST_DTCTR_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="RST_DTCTR.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="RST_DTCTR_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="RST_DTCTR_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="RST_DTCTR_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="RST_DTCTR_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="RST_DTCTR_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="RST_DTCTR_drc_routed.pb"/>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1736760981">
+  <File Type="BITSTR-BMM" Name="TS_CTRL_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TS_CTRL_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TS_CTRL_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="TS_CTRL_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TS_CTRL.tcl"/>
+  <File Type="OPT-TIMING" Name="TS_CTRL_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TS_CTRL_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="TS_CTRL_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TS_CTRL_reports.tcl"/>
+  <File Type="OPT-DRC" Name="TS_CTRL_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TS_CTRL.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TS_CTRL_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="TS_CTRL_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="TS_CTRL_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TS_CTRL_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TS_CTRL_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TS_CTRL_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TS_CTRL_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TS_CTRL_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TS_CTRL_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TS_CTRL_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TS_CTRL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="TS_CTRL.bgn"/>
+  <File Type="PLACE-TIMING" Name="TS_CTRL_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TS_CTRL_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="TS_CTRL.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TS_CTRL_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TS_CTRL_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TS_CTRL_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="TS_CTRL.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="TS_CTRL_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TS_CTRL_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TS_CTRL_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TS_CTRL_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TS_CTRL_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TS_CTRL_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="RST_DTCTR.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="RST_DTCTR_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="RST_DTCTR.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="RST_DTCTR_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="RST_DTCTR_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="RST_DTCTR.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RST_DTCTR_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="RST_DTCTR_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="RST_DTCTR_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="RST_DTCTR_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="RST_DTCTR_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="RST_DTCTR_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="RST_DTCTR_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="RST_DTCTR_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="RST_DTCTR_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="RST_DTCTR_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="RST_DTCTR_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="RST_DTCTR_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="RST_DTCTR_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="RST_DTCTR_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="RST_DTCTR_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="RST_DTCTR_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="RST_DTCTR_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="RST_DTCTR_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="RST_DTCTR_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="RST_DTCTR.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="RST_DTCTR_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="RST_DTCTR.rbt"/>
-  <File Type="BITSTR-NKY" Name="RST_DTCTR.nky"/>
-  <File Type="BG-DRC" Name="RST_DTCTR.drc"/>
-  <File Type="RDI-RDI" Name="RST_DTCTR.vdi"/>
+  <File Type="BITSTR-LTX" Name="TS_CTRL.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="TS_CTRL_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="TS_CTRL.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TS_CTRL_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TS_CTRL_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="TS_CTRL.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TS_CTRL_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="TS_CTRL_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TS_CTRL_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TS_CTRL_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TS_CTRL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TS_CTRL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TS_CTRL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TS_CTRL_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TS_CTRL_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TS_CTRL_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TS_CTRL_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TS_CTRL_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TS_CTRL_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TS_CTRL_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TS_CTRL_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TS_CTRL_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TS_CTRL_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TS_CTRL_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TS_CTRL_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="TS_CTRL.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TS_CTRL_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="TS_CTRL.rbt"/>
+  <File Type="BITSTR-NKY" Name="TS_CTRL.nky"/>
+  <File Type="BG-DRC" Name="TS_CTRL.drc"/>
+  <File Type="RDI-RDI" Name="TS_CTRL.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FT_CNTR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/RST_DTCTR.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/FT_CNTR.vhd">
+    <File Path="$PSRCDIR/sources_1/new/UART.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/TS_CTRL.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="RST_DTCTR"/>
+      <Option Name="TopModule" Val="TS_CTRL"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/const.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/const.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

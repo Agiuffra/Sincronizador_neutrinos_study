@@ -134,8 +134,7 @@ begin
     end process;
     
     UART_TX_o <= txBit;
-    READY <= '1' when (txState = RDY) else
-                '0';
+    READY <= '1' when (txState = RDY) else '0';
 
 
 end Behavioral;

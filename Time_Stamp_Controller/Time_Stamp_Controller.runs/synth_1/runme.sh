@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1'
+HD_PWD='C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log RST_DTCTR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RST_DTCTR.tcl
+EAStep vivado -log TS_CTRL.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TS_CTRL.tcl
