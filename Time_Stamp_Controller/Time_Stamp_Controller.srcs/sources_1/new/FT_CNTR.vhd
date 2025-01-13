@@ -36,14 +36,13 @@ begin
     begin
         if ( RST = '1' ) then
             CNT_BUFFER <= ( others => '0' );
-        elsif (ISR = '1') then
-            CNT <= std_logic_vector(CNT_BUFFER);
-            CNT_BUFFER <= ( others => '0' );
-        elsif ( rising_edge( CLK ) ) then
+        elsif ( rising_edge ( CLK ) ) then
             if ( EN = '1' ) then
                 CNT_BUFFER <= CNT_BUFFER + 1;
             end if;
         end if;
     end process;
+    
+    CNT <= std_logic_vector ( CNT_BUFFER );
 
 end Behavioral;

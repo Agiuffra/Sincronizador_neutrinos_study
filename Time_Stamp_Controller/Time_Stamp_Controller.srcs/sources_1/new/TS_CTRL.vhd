@@ -60,12 +60,13 @@ architecture Behavioral of TS_CTRL is
     signal s_DSEND      : std_logic := '0'; 
     signal s_READY      : std_logic := '0'; 
     signal s_UART_TX_o  : std_logic := '0'; 
+    signal s_UART_TX_i  : std_logic := '0'; 
     signal s_DATA       : std_logic_vector ( 7 downto 0 ) := (others => '0');
     
     signal s_EN         : std_logic := '1'; 
     signal s_RST        : std_logic := '0'; 
     signal s_ISR        : std_logic := '0'; 
-    signal s_ISR_in        : std_logic := '0'; 
+    signal s_ISR_in     : std_logic := '0'; 
     signal s_CNT        : std_logic_vector ( 31 downto 0 ) := (others => '0');
     signal s_CNT_BFFR   : std_logic_vector ( 31 downto 0 ) := (others => '0');
     
@@ -84,7 +85,7 @@ begin
     s_RF1       <= S1;
     s_RF2       <= S2;
     s_RF3       <= S3;
-    UART_TX_o   <= s_UART_TX_o;
+    UART_TX_o   <= s_UART_TX_i;
     LED1        <= s_LED1;
 
     UART01: UART port map (
@@ -112,6 +113,7 @@ begin
     
     s_EN <= NOT s_ISR_in;
     s_ISR <= s_ISR_in;
+    s_UART_TX_i <= s_UART_TX_o;
     
     Data_Stor_proc: process(s_CLK)
         variable s_ISR_PRV : std_logic := '0'; -- Registro para almacenar el estado previo de btn_s
@@ -177,10 +179,12 @@ begin
         end if; 
     end process;
     
+--    s_DATA  <=  x"AC";
+
     s_DATA  <=  s_CNT_BFFR ( 31 downto 24 ) when ( BYTE = x"00" ) else
                 s_CNT_BFFR ( 23 downto 16 ) when ( BYTE = x"01" ) else
                 s_CNT_BFFR ( 15 downto  8 ) when ( BYTE = x"02" ) else
                 s_CNT_BFFR (  7 downto  0 ) when ( BYTE = x"03" ) else
-                x"FF";
+                x"20";
 
 end Behavioral;

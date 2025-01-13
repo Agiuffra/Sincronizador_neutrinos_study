@@ -29,9 +29,9 @@ entity UART is
 end UART;
 
 architecture Behavioral of UART is
-                                                           --00001101100011 (115200)
-                                                           --10100010110000 (9600)
-    constant BIT_TMR_MAX : std_logic_vector( 13 downto 0 ) := "10100010110000"; --(round(100MHz / BAUD)) - 1
+                                                             --00001101100011 (115200)
+                                                             --10100010110000 (9600)
+    constant BIT_TMR_MAX : std_logic_vector( 13 downto 0 ) := "01010001010111"; --(round(100MHz / BAUD)) - 1
     constant BIT_INDEX_MAX : natural := 10;
     
     type TX_STATE_TYPE is ( RDY, LOAD_BIT, SEND_BIT );

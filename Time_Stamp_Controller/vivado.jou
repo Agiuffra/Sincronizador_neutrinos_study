@@ -283,3 +283,122 @@ source TS_CTRL_SIM.tcl
 remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 124
 restart
 run 100 ms
+close_sim
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B5A904A}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+launch_simulation
+source TS_CTRL_SIM.tcl
+restart
+run 100 ms
+run 100 ms
+run 100 ms
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B5A904A}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_sim
+launch_simulation
+source TS_CTRL_SIM.tcl
+restart
+run 200 ms
+relaunch_sim
+restart
+run 200 ms
+run 800 ms
+restart
+run 800 ms
+open_run synth_1 -name synth_1
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+open_run synth_1 -name synth_1
+place_ports UART_TX_o N17
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_sim
+launch_simulation
+source TS_CTRL_SIM.tcl
+restart
+run 800 ms
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_sim

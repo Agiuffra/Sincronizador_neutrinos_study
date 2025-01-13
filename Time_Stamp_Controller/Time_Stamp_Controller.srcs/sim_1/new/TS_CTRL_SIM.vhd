@@ -46,7 +46,7 @@ begin
     begin
  
         -- Prueba del AND
-        wait for 53 ms;
+        wait for 500 ms;
         s_S1 <= '1';
         s_S2 <= '1';
         s_S3 <= '1';

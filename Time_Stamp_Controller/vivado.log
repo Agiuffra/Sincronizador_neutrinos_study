@@ -1385,3 +1385,480 @@ restart
 INFO: [Simtcl 6-17] Simulation restarted
 run 100 ms
 run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A904A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B5A904A}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A904A
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jan 13 16:08:32 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 16:08:32 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Jan 13 16:24:23 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 16:24:23 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A904A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210183B5A904A}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A904A
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/UART.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 ms
+run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3679.383 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 200 ms
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 3679.383 ; gain = 0.000
+run 800 ms
+run: Time (s): cpu = 00:00:39 ; elapsed = 00:00:50 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 800 ms
+run: Time (s): cpu = 00:00:38 ; elapsed = 00:00:50 . Memory (MB): peak = 3679.383 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+Finished Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3679.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+Finished Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3679.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+place_ports UART_TX_o N17
+save_constraints
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Jan 13 17:05:29 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 17:05:29 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_design
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+Finished Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3679.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Jan 13 17:10:22 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 17:10:22 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 800 ms
+run: Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 3679.383 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Jan 13 17:22:59 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 17:22:59 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Jan 13 17:35:52 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 17:35:52 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 13 17:48:04 2025...

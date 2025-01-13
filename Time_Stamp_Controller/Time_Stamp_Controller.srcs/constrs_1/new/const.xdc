@@ -12,4 +12,5 @@ set_property IOSTANDARD LVCMOS33 [get_ports UART_TX_o]
 
 
 
-set_property PACKAGE_PIN Y17 [get_ports UART_TX_o]
+set_property PACKAGE_PIN N17 [get_ports UART_TX_o]
+
