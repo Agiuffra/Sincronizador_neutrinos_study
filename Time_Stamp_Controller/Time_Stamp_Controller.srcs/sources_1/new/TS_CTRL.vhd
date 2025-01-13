@@ -17,7 +17,7 @@ entity TS_CTRL is
         CLK         : in std_logic;         -- Clock
         S1, S2, S3  : in std_logic;         -- Senales de interrupcion
         UART_TX_o   : out std_logic;        -- Salida UART serial
-        LED1        : out std_logic := '1'  -- LED embebido para debug
+        LED1        : out std_logic := '0'  -- LED embebido para debug
     );
 end TS_CTRL;
 
@@ -37,7 +37,7 @@ architecture Behavioral of TS_CTRL is
         Port (
             CLK : in std_logic;                         -- Clock      
             EN  : in std_logic;                         -- Enable     
-            -- RST : in std_logic;                              -- Reset   
+            RST : in std_logic;                         -- Reset   
             ISR : in std_logic;                         -- Interruptor
             CNT : out std_logic_vector ( 31 downto 0 )  -- Cuenta en paralelo
         );
@@ -54,15 +54,20 @@ architecture Behavioral of TS_CTRL is
 
     signal s_CLK        : std_logic := '0'; 
     signal BYTE         : std_logic_vector ( 3 downto 0 ) := (others => '0');
+    signal s_LED1       : std_logic := '0';
     
-    signal s_SEND       : std_logic := '0'; 
+    signal s_SEND       : std_logic := '0';
+    signal s_DSEND      : std_logic := '0'; 
     signal s_READY      : std_logic := '0'; 
     signal s_UART_TX_o  : std_logic := '0'; 
     signal s_DATA       : std_logic_vector ( 7 downto 0 ) := (others => '0');
     
-    signal s_EN         : std_logic := '0'; 
+    signal s_EN         : std_logic := '1'; 
+    signal s_RST        : std_logic := '0'; 
     signal s_ISR        : std_logic := '0'; 
+    signal s_ISR_in        : std_logic := '0'; 
     signal s_CNT        : std_logic_vector ( 31 downto 0 ) := (others => '0');
+    signal s_CNT_BFFR   : std_logic_vector ( 31 downto 0 ) := (others => '0');
     
     signal s_RF1        : std_logic := '0'; 
     signal s_RF2        : std_logic := '0'; 
@@ -80,6 +85,7 @@ begin
     s_RF2       <= S2;
     s_RF3       <= S3;
     UART_TX_o   <= s_UART_TX_o;
+    LED1        <= s_LED1;
 
     UART01: UART port map (
         SEND        => s_SEND,
@@ -93,15 +99,38 @@ begin
         RF1 => s_RF1,
         RF2 => s_RF2,
         RF3 => s_RF3,
-        ISR => s_ISR
+        ISR => s_ISR_in
     );
     
     CNTR01: FT_CNTR port map (
         CLK => s_CLK,      
         EN  => s_EN, 
+        RST  => s_RST, 
         ISR => s_ISR,
         CNT => s_CNT
     );
+    
+    s_EN <= NOT s_ISR_in;
+    s_ISR <= s_ISR_in;
+    
+    Data_Stor_proc: process(s_CLK)
+        variable s_ISR_PRV : std_logic := '0'; -- Registro para almacenar el estado previo de btn_s
+    begin
+        if rising_edge ( s_CLK ) then
+            -- Detectar el flanco de subida de btn_s
+            if ( s_ISR_in = '1' and s_ISR_PRV = '0' ) then
+                s_CNT_BFFR  <= s_CNT; -- Guardar el valor de CUENTA
+                s_RST       <= '1';    -- Activar el reset
+                s_DSEND     <= '1';   -- Activar enviar_datos
+            elsif (s_RST = '1') then
+                s_RST <= '0'; -- Desactivar despu?s de un ciclo
+            else
+                s_DSEND <= '0'; -- Desactivar enviar_datos
+            end if;
+            
+            s_ISR_PRV := s_ISR;
+        end if;
+    end process;
     
     SM01: process (s_CLK, s_SEND, BYTE)
     begin
@@ -109,14 +138,14 @@ begin
             case state is
                 
                 when IDLE =>
-                    if ( s_ISR = '1' ) then
+                    if ( s_DSEND = '1' ) then
                         BYTE    <= x"0";
                         state   <= LOAD_DATA;
                     end if;
                     
                 when LOAD_DATA =>
                     if ( BYTE < DATA_SIZE ) then
-                        LED1    <= '0';
+                        s_LED1  <= '1';
                         s_SEND  <= '1';
                         state   <= SEND_DATA;
                     else
@@ -136,7 +165,7 @@ begin
                 
                 when WAIT_READY =>
                     if ( s_READY = '1' ) then
-                        LED1    <= '1';
+                        s_LED1  <= '0';
                         BYTE    <= BYTE + 1;
                         state   <= LOAD_DATA;
                     end if;
@@ -148,10 +177,10 @@ begin
         end if; 
     end process;
     
-    s_DATA  <=  s_CNT ( 31 downto 24 ) when ( BYTE = x"00" ) else
-                s_CNT ( 23 downto 16 ) when ( BYTE = x"01" ) else
-                s_CNT ( 15 downto  8 ) when ( BYTE = x"02" ) else
-                s_CNT (  7 downto  0 ) when ( BYTE = x"03" ) else
+    s_DATA  <=  s_CNT_BFFR ( 31 downto 24 ) when ( BYTE = x"00" ) else
+                s_CNT_BFFR ( 23 downto 16 ) when ( BYTE = x"01" ) else
+                s_CNT_BFFR ( 15 downto  8 ) when ( BYTE = x"02" ) else
+                s_CNT_BFFR (  7 downto  0 ) when ( BYTE = x"03" ) else
                 x"FF";
 
 end Behavioral;

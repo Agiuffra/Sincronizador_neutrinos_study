@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1'
+HD_PWD='C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

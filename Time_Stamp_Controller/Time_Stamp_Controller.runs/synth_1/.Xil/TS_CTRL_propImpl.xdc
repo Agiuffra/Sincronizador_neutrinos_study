@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc rfile:../../../Time_Stamp_Controller.srcs/constrs_1/new/const.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc rfile:../../../Time_Stamp_Controller.srcs/constrs_1/new/const.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN U18 [get_ports CLK]
 set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]

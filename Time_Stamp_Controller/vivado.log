@@ -1,55 +1,87 @@
 #-----------------------------------------------------------
-# Vivado v2019.1.3 (64-bit)
-# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
-# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
-# Start of session at: Mon Jan 13 01:11:58 2025
-# Process ID: 22772
-# Current directory: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8632 C:\Users\giuff\OneDrive\Documents\UTEC\Neutrino\Sincronizador_neutrinos_study\Time_Stamp_Controller\Time_Stamp_Controller.xpr
-# Log file: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/vivado.log
-# Journal file: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller\vivado.jou
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 13 08:42:46 2025
+# Process ID: 13700
+# Current directory: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16640 C:\Users\agiuffra\Documents\Neutrino_VHDL\Sincronizador_neutrinos_study\Time_Stamp_Controller\Time_Stamp_Controller.xpr
+# Log file: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/vivado.log
+# Journal file: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.xpr
+open_project C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.xpr
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller'
-INFO: [Project 1-313] Project file moved from 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller' since last save.
+Current project path is 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller'
+INFO: [Project 1-313] Project file moved from 'C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
-open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 873.602 ; gain = 225.348
-update_compile_order -fileset sources_1
-set_property top TS_CTRL [current_fileset]
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property top TS_CTRL [current_fileset]
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-close [ open C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/SM.vhd w ]
-add_files C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/SM.vhd
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property source_mgmt_mode DisplayOnly [current_project]
-export_ip_user_files -of_objects  [get_files C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/SM.vhd] -no_script -reset -force -quiet
-remove_files  C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/SM.vhd
-file delete -force C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/SM.vhd
-reset_run synth_1
-launch_runs synth_1 -jobs 16
-[Mon Jan 13 02:56:03 2025] Launched synth_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 16
-[Mon Jan 13 02:56:52 2025] Launched synth_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 16
-[Mon Jan 13 02:57:13 2025] Launched synth_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 739.195 ; gain = 102.633
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1915.559 ; gain = 1105.875
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+ERROR: [Labtools 27-2312] Device xc7z020_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
 open_run synth_1 -name synth_1
 Design is defaulting to impl run constrset: constrs_1
 Design is defaulting to synth run part: xc7z020clg400-2
@@ -58,222 +90,1298 @@ INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
 INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
+Finished Parsing XDC File [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1216.926 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2312.512 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-open_run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1430.535 ; gain = 504.973
-place_ports CLK U18
-set_property IOSTANDARD LVCMOS18 [get_ports [list CLK]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list LED1]]
-place_ports LED1 R19
-place_ports S1 N20
-set_property IOSTANDARD LVCMOS33 [get_ports [list S1]]
-place_ports S2 U17
-set_property IOSTANDARD LVCMOS33 [get_ports [list S2]]
-place_ports S2 T16
-place_ports S3 P19
-set_property IOSTANDARD LVCMOS33 [get_ports [list S3]]
-set_property IOSTANDARD LVCMOS18 [get_ports [list UART_TX_o]]
-set_property package_pin "" [get_ports [list  UART_TX_o]]
-set_property package_pin "" [get_ports [list  UART_TX_o]]
-file mkdir C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new
-close [ open C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc w ]
-add_files -fileset constrs_1 C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc
-set_property target_constrs_file C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc [current_fileset -constrset]
-save_constraints -force
-refresh_design
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location is not valid [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc:11]
-Finished Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-set_property OFFCHIP_TERM NONE [get_ports [list UART_TX_o]]
-set_property OFFCHIP_TERM FP_VTT_50 [get_ports [list UART_TX_o]]
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2463.914 ; gain = 451.977
 reset_run synth_1
-save_constraints -force
-launch_runs impl_1 -jobs 16
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
 WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
-[Mon Jan 13 03:10:30 2025] Launched synth_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
-[Mon Jan 13 03:10:30 2025] Launched impl_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+[Mon Jan 13 08:51:32 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 08:51:32 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
 close_design
-open_run synth_1 -name synth_1
-Design is defaulting to impl run constrset: constrs_1
-Design is defaulting to synth run part: xc7z020clg400-2
-INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location is not valid [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc:11]
-Finished Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2012.066 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
 
-set_property IOSTANDARD LVCMOS18 [get_ports [list CLK]]
-set_property IOSTANDARD HSTL_I_18 [get_ports [list CLK]]
-set_property IOSTANDARD HSTL_II_18 [get_ports [list CLK]]
-save_constraints
-set_property IOSTANDARD HSTL_I_18 [get_ports [list CLK]]
-save_constraints
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/TS_CTRL.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+close_hw
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd w ]
+add_files -fileset sim_1 C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd
+set_property top FT_CNTR_SIM [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:10:08 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FT_CNTR_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj FT_CNTR_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/FT_CNTR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/RST_DTCTR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RST_DTCTR'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/UART.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/RST_DTCTR_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RST_DTCTR_SIM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR_SIM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FT_CNTR_SIM_behav xil_defaultlib.FT_CNTR_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FT_CNTR_SIM_behav xil_defaultlib.FT_CNTR_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <RST> does not exist in entity <FT_CNTR>.  Please compare the definition of block <FT_CNTR> to its component declaration and its instantion to detect the mismatch. [C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd:17]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit ft_cntr_sim in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top TS_CTRL_SIM [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim/xsim.dir/TS_CTRL_SIM_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Jan 13 09:13:00 2025...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2925.047 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2925.047 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2925.047 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2925.047 ; gain = 0.000
 reset_run synth_1
-launch_runs synth_1 -jobs 16
-[Mon Jan 13 03:13:11 2025] Launched synth_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
-close_design
-launch_runs impl_1 -jobs 16
-[Mon Jan 13 03:14:04 2025] Launched impl_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
-open_run impl_1
-INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Timing 38-478] Restoring timing data from binary archive.
-INFO: [Timing 38-479] Binary timing data restore complete.
-INFO: [Project 1-856] Restoring constraints from binary archive.
-INFO: [Project 1-853] Binary constraint restore complete.
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2383.461 ; gain = 0.000
-Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2383.461 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2383.461 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
 
-WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
-launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Mon Jan 13 03:15:31 2025] Launched impl_1...
-Run output will be captured here: C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
-close_design
-open_run synth_1 -name synth_1
-Design is defaulting to impl run constrset: constrs_1
-Design is defaulting to synth run part: xc7z020clg400-2
-INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location is not valid [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc:11]
-Finished Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3543.398 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:20:19 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:20:19 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2979.797 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2979.797 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
 
-refresh_design
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-Finished Parsing XDC File [C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc]
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-set_property package_pin "" [get_ports [list  UART_TX_o]]
-save_constraints
-close_design
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/genesys2/H/1.1/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/sword/C.0/1.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/3.0/3.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/4.0/4.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/3.0/3.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/4.0/4.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/3.0/3.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/2.0/2.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/4.0/4.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/3.0/3.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/4.0/4.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:teb0911_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEB0911_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:tec0850_15eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEC0850_15EG_1E/1.0/1.0/board.xml as part xczu15eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au200:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au200/1.2/1.2/board.xml as part xcu200-fsgd2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au250:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au250/1.2/1.2/board.xml as part xcu250-figd2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/production/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.1/1.1/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu118/2.0/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.0/1.0/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.1/1.1/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/es/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/genesys2/H/1.1/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/sword/C.0/1.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/3.0/3.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/4.0/4.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/3.0/3.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/4.0/4.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/3.0/3.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/2.0/2.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/4.0/4.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/3.0/3.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/4.0/4.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:teb0911_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEB0911_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:tec0850_15eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEC0850_15EG_1E/1.0/1.0/board.xml as part xczu15eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au200:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au200/1.2/1.2/board.xml as part xcu200-fsgd2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au250:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au250/1.2/1.2/board.xml as part xcu250-figd2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/production/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.1/1.1/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu118/2.0/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.0/1.0/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.1/1.1/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/es/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/genesys2/H/1.1/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/sword/C.0/1.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/3.0/3.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/4.0/4.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/3.0/3.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/4.0/4.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/3.0/3.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/2.0/2.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/4.0/4.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/3.0/3.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/4.0/4.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:teb0911_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEB0911_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:tec0850_15eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEC0850_15EG_1E/1.0/1.0/board.xml as part xczu15eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au200:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au200/1.2/1.2/board.xml as part xcu200-fsgd2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au250:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au250/1.2/1.2/board.xml as part xcu250-figd2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/production/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.1/1.1/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu118/2.0/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.0/1.0/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.1/1.1/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/es/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/genesys2/H/1.1/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/sword/C.0/1.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/3.0/3.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/4.0/4.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/3.0/3.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_6eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_6EG_1E/4.0/4.0/board.xml as part xczu6eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/3.0/3.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/2.0/2.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_1E/4.0/4.0/board.xml as part xczu9eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/3.0/3.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_9eg_2i_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_9EG_2I/4.0/4.0/board.xml as part xczu9eg-ffvc900-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:teb0911_9eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEB0911_9EG_1E/1.0/1.0/board.xml as part xczu9eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:tec0850_15eg_1e:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TEC0850_15EG_1E/1.0/1.0/board.xml as part xczu15eg-ffvb1156-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au200:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au200/1.2/1.2/board.xml as part xcu200-fsgd2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au250:part0:1.2 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au250/1.2/1.2/board.xml as part xcu250-figd2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/production/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.1/1.1/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu118/2.0/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.0/1.0/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.1/1.1/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129_es:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/es/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/genesys2/H/1.1/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Digilent/sword/C.0/1.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e:part0:3.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/3.0/3.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0808_15eg_1e_tebf0808:part0:4.0 available at C:/Users/giuff/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Trenz_Electronic/TE0808_15EG_1E/4.0/4.0/board.xml as part xczu15eg-ffvc900-1-e specified in board_part file is either invalid or not available
-INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:24:31 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:24:31 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:30:10 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:30:10 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 153
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:33:22 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:33:22 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000
+run 100 ms
+Stopped at time : 20 ms : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 0 fs : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 20 ms : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 22083470 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 24166930 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 26250390 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 26250430 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 28333890 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 30417350 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 32500810 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 32500850 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 34584310 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 36667770 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 38751230 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 38751270 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 40834730 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 42918190 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 45001650 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 60 ms : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 60000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 62083470 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 64166930 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+run 100 ms
+Stopped at time : 66250390 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 153
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:45:01 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:45:01 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/FT_CNTR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FT_CNTR_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: [Simulator 45-24] Previous breakpoint at line 153 in file 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd' not restored because it is no longer a breakable line.
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 163
+run 100 ms
+Stopped at time : 22083490 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 24166950 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 26250410 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 28333870 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 30417370 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 32500830 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 34584290 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 36667750 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 146
+run 100 ms
+Stopped at time : 36667770 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 146
+run 100 ms
+Stopped at time : 38751250 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 124
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 122
+run 100 ms
+Stopped at time : 40000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 122
+run 100 ms
+Stopped at time : 40000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 40000050 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 40000070 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 40000090 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 40000110 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 40000130 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 40000150 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 124
+run 100 ms
+Stopped at time : 40834710 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 42918170 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 45001630 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 45001650 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 146
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 120
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000050 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000070 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000090 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000110 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000130 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000150 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run 100 ms
+Stopped at time : 20000170 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run all
+Stopped at time : 20000190 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run all
+Stopped at time : 20000210 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run all
+Stopped at time : 20000230 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run all
+Stopped at time : 20000250 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run all
+Stopped at time : 20000270 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+run all
+Stopped at time : 20000290 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 120
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 120
+run 100 ms
+Stopped at time : 22083490 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+run 100 ms
+Stopped at time : 24166950 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 163
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 118
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 122
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 118
+run 100 ms
+Stopped at time : 20000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 118
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:51:55 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:51:55 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 09:58:05 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 09:58:05 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 10:00:39 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 10:00:39 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+2. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 10:01:27 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 10:01:27 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: [Simulator 45-24] Previous breakpoint at line 146 in file 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd' not restored because it is no longer a breakable line.
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 118
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 118
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 163
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 124
+run 100 ms
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 3679.383 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 10:05:14 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 10:05:14 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 20000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 170
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 170
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 159
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 158
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 159
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 20000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 20000070 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 158
+run 100 ms
+Stopped at time : 22083530 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 158
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 10:10:23 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 10:10:23 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 3679.383 ; gain = 0.000
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 20000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 20000070 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 158
+run 100 ms
+Stopped at time : 22083530 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 158
+run 100 ms
+Stopped at time : 24166990 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 158
+run 100 ms
+Stopped at time : 26250450 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 158
+run 100 ms
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 158
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 124
+add_bp {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} 124
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 20000030 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+[Mon Jan 13 10:15:54 2025] Launched synth_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/runme.log
+[Mon Jan 13 10:15:54 2025] Launched impl_1...
+Run output will be captured here: C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+Stopped at time : 20000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+run 100 ms
+Stopped at time : 60000010 ns : File "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" Line 124
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TS_CTRL_SIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TS_CTRL_SIM_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TS_CTRL_SIM'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+"xelab -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2e67f72800e44c65ad742039fa7d2b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TS_CTRL_SIM_behav xil_defaultlib.TS_CTRL_SIM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.UART [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.RST_DTCTR [rst_dtctr_default]
+Compiling architecture behavioral of entity xil_defaultlib.FT_CNTR [ft_cntr_default]
+Compiling architecture behavioral of entity xil_defaultlib.TS_CTRL [ts_ctrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.ts_ctrl_sim
+Built simulation snapshot TS_CTRL_SIM_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TS_CTRL_SIM_behav -key {Behavioral:sim_1:Functional:TS_CTRL_SIM} -tclbatch {TS_CTRL_SIM.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TS_CTRL_SIM.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TS_CTRL_SIM_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3679.383 ; gain = 0.000
+remove_bps -file {C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd} -line 124
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ms
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 3679.383 ; gain = 0.000

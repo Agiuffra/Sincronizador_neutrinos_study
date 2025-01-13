@@ -20,7 +20,7 @@ use ieee.numeric_std.all;
 entity FT_CNTR is
     Port ( CLK : in std_logic;                              -- Clock
            EN  : in std_logic := '1';                       -- Enable
-           -- RST : in std_logic;                              -- Reset
+           RST : in std_logic;                              -- Reset
            ISR : in std_logic;                              -- Interruptor de cuenta
            CNT : out std_logic_vector ( 31 downto 0 ) := ( others => '0' ) );    -- Salida con la cuenta 4 bytes (4 294 967 296) igual a 85 segundos
 end FT_CNTR;
@@ -31,13 +31,12 @@ architecture Behavioral of FT_CNTR is
 
 begin
 
-    -- process ( CLK, RST, ISR )
-    process ( CLK, ISR )
+    process ( CLK, RST, ISR )
+    -- process ( CLK, ISR )
     begin
-        --if ( RST = '1' ) then
-        --    CNT_BUFFER <= ( others => '0' );
-        --els
-        if (ISR = '1') then
+        if ( RST = '1' ) then
+            CNT_BUFFER <= ( others => '0' );
+        elsif (ISR = '1') then
             CNT <= std_logic_vector(CNT_BUFFER);
             CNT_BUFFER <= ( others => '0' );
         elsif ( rising_edge( CLK ) ) then

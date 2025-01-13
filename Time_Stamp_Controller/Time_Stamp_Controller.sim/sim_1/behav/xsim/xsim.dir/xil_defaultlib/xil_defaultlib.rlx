@@ -2,5 +2,10 @@
 2019.1
 May 24 2019
 15:06:07
-C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/RST_DTCTR_SIM.vhd,1736370708,vhdl,,,,rst_dtctr_sim,,,,,,,,
-C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/RST_DTCTR.vhd,1736370262,vhdl,,,,rst_dtctr,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd,1736779188,vhdl,,,,ft_cntr_sim,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/RST_DTCTR_SIM.vhd,1736777407,vhdl,,,,rst_dtctr_sim,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd,1736786804,vhdl,,,,ts_ctrl_sim,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/FT_CNTR.vhd,1736779222,vhdl,,,,ft_cntr,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/RST_DTCTR.vhd,1736530078,vhdl,,,,rst_dtctr,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd,1736781347,vhdl,,,,ts_ctrl,,,,,,,,
+C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/sources_1/new/UART.vhd,1736773554,vhdl,,,,uart,,,,,,,,

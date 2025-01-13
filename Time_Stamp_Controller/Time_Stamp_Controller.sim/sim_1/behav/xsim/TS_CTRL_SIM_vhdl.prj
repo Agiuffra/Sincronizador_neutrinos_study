@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Time_Stamp_Controller.srcs/sources_1/new/FT_CNTR.vhd" \
+"../../../../Time_Stamp_Controller.srcs/sources_1/new/RST_DTCTR.vhd" \
+"../../../../Time_Stamp_Controller.srcs/sources_1/new/UART.vhd" \
+"../../../../Time_Stamp_Controller.srcs/sources_1/new/TS_CTRL.vhd" \
+"../../../../Time_Stamp_Controller.srcs/sim_1/new/RST_DTCTR_SIM.vhd" \
+"../../../../Time_Stamp_Controller.srcs/sim_1/new/FT_CNTR_SIM.vhd" \
+"../../../../Time_Stamp_Controller.srcs/sim_1/new/TS_CTRL_SIM.vhd" \
+
+# Do not sort compile order
+nosort

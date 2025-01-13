@@ -65,16 +65,17 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 4
+  set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z020clg400-2
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.cache/wt [current_project]
-  set_property parent.project_path C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.xpr [current_project]
-  set_property ip_output_repo C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.cache/wt [current_project]
+  set_property parent.project_path C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.xpr [current_project]
+  set_property ip_output_repo C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/TS_CTRL.dcp
-  read_xdc C:/Users/giuff/OneDrive/Documents/UTEC/Neutrino/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc
+  add_files -quiet C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.runs/synth_1/TS_CTRL.dcp
+  read_xdc C:/Users/agiuffra/Documents/Neutrino_VHDL/Sincronizador_neutrinos_study/Time_Stamp_Controller/Time_Stamp_Controller.srcs/constrs_1/new/const.xdc
   link_design -top TS_CTRL -part xc7z020clg400-2
   close_msg_db -file init_design.pb
 } RESULT]
@@ -147,24 +148,6 @@ if {$rc} {
   return -code error $RESULT
 } else {
   end_step route_design
-  unset ACTIVE_STEP 
-}
-
-start_step write_bitstream
-set ACTIVE_STEP write_bitstream
-set rc [catch {
-  create_msg_db write_bitstream.pb
-  catch { write_mem_info -force TS_CTRL.mmi }
-  write_bitstream -force TS_CTRL.bit 
-  catch {write_debug_probes -quiet -force TS_CTRL}
-  catch {file copy -force TS_CTRL.ltx debug_nets.ltx}
-  close_msg_db -file write_bitstream.pb
-} RESULT]
-if {$rc} {
-  step_failed write_bitstream
-  return -code error $RESULT
-} else {
-  end_step write_bitstream
   unset ACTIVE_STEP 
 }
 
