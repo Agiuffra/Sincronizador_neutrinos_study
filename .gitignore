@@ -45,11 +45,11 @@ unisims
 *.lib
 
 ## dirs
-vivado.cache/
-vivado.hw/
-vivado.ip_user_files/
-vivado.runs/
-vivado.sim/
+Time_Stamp_Controller.cache/
+Time_Stamp_Controller.hw/
+Time_Stamp_Controller.ip_user_files/
+Time_Stamp_Controller.runs/
+Time_Stamp_Controller.sim/
 
 ###### for Xilinx Vivado|ISE
 .Xil/
