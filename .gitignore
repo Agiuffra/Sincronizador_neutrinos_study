@@ -76,3 +76,4 @@ xvlog.*
 /Time_Stamp_Controller/Time_Stamp_Controller.cache
 *.wdf
 *.wdb
+*.raw
